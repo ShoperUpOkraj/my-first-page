@@ -1,0 +1,14 @@
+.first_stage {
+    margin-left: 30px;
+    list-style-type: decimal;
+}
+
+.second_stage {
+    margin-left: 50px;
+    list-style-type: lower-alpha;
+}
+
+.third_stage {
+    margin-left: 70px;
+    list-style-type: disc;
+}

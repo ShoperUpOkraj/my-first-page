@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Była tabela, ale jest formularz</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <p>
+                <a href="../index.html">Strona Główna</a>
+            </p>
+            <p>
+                <a href="../filmy/index.html">Filmy</a>
+            </p>
+            <p>
+                <a href="../lista_zakupow/index.html">Lista zakupów</a>
+            </p>
+            <p>
+                <a href="../users/index.html">Użytkownicy</a>
+            </p>
+            <p>
+                <a href="../contact/index.html">Formularz kontaktowy</a>
+            </p>
+        </nav>
+    </header>
+    <main>
+        <h1>Kontakt</h1>
+        <section>
+            <form>
+                <label>
+                    Podaj imię:
+                    <input type="text" name="FirstName">
+                </label><br>
+                <label>
+                    Podaj nazwisko:
+                    <input type="text" name="SecondName">
+                </label><br>
+                <label>
+                    Podaj e-mail:
+                    <input type="email" name="email">
+                </label><br>
+                <label>
+                    Wybierz kraj
+                    <select name="country">
+                        <option name="PL">Polska</option>
+                        <option name="USA">Stany Zjednoczone</option>
+                    </select>
+                </label><br>
+                <label>
+                    CHce zapisać się na Newsletter
+                    <input type="checkbox">
+                </label><br>
+                <label>
+                    <input type="submit" value="Ślij">
+                </label><br>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Autor: Maciej Okrajek</p>
+    </footer>
+</body>
+</html>
